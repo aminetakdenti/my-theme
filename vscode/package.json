@@ -1,0 +1,30 @@
+{
+  "name": "onyx-theme",
+  "displayName": "Onyx Theme",
+  "description": "Minimal monochromatic theme for VS Code",
+  "version": "0.0.3",
+  "publisher": "aminetakdenti",
+  "author": "amine takdenti <aminetakdenti4@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminetakdenti/my-theme"
+  },
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Onyx Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/onyx-dark-color-theme.json"
+      },
+      {
+        "label": "Onyx Light",
+        "uiTheme": "vs",
+        "path": "./themes/onyx-light-color-theme.json"
+      }
+    ]
+  }
+}

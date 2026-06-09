@@ -1,0 +1,7 @@
+id = "onyx-theme"
+name = "Onyx Theme (forked from Shawn Lukas)"
+description = "Minimal monochromatic theme for Zed editor froked from https://github.com/shawnlukas/onyx"
+version = "0.0.3"
+schema_version = 2
+authors = ["amine takdenti <aminetakdenti4@gmail.com>"]
+repository = "https://github.com/aminetakdenti/my-theme"

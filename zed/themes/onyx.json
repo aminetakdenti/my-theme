@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/themes/v0.1.0.json",
-  "name": "Onyx Theme",
+  "name": "Onyx Gold Theme",
   "author": "Shawn Lukas",
   "themes": [
     {
-      "name": "Onyx Dark",
+      "name": "Onyx Gold Dark",
       "appearance": "dark",
       "style": {
         "border": "#eeeeee10",
@@ -36,12 +36,12 @@
         "text.muted": "#999999",
         "text.placeholder": "#777777",
         "text.disabled": "#444444",
-        "text.accent": "#0090ff",
+        "text.accent": "#c9a227",
 
         "icon": "#eeeeee",
         "icon.muted": "#aaaaaa",
         "icon.disabled": "#444444",
-        "icon.accent": "#0090ff",
+        "icon.accent": "#c9a227",
 
         "status_bar.background": "#111111",
         "title_bar.background": "#111111",
@@ -52,7 +52,7 @@
         "tab.active_foreground": "#111111",
         "tab.inactive_background": "#111111",
 
-        "search.match_background": "#0090ff30",
+        "search.match_background": "#c9a22730",
 
         "editor.background": "#111111",
         "editor.gutter.background": "#111111",
@@ -77,8 +77,8 @@
         "terminal.ansi.dim_black": "#666666",
         "terminal.ansi.red": "#eb5757",
         "terminal.ansi.green": "#4cc580",
-        "terminal.ansi.yellow": "#ffdc75",
-        "terminal.ansi.blue": "#0090ff",
+        "terminal.ansi.yellow": "#c9a227",
+        "terminal.ansi.blue": "#c9a227",
         "terminal.ansi.white": "#eeeeee",
         "terminal.ansi.bright_white": "#eeeeee90",
         "terminal.ansi.dim_white": "#eeeeee80",
@@ -95,7 +95,7 @@
         "scrollbar.track.background": "#111111",
         "scrollbar.track.border": "#eeeeee10",
 
-        "link_text.hover": "#0090ff",
+        "link_text.hover": "#c9a227",
 
         "conflict": "#fee56c",
         "conflict.background": "#181818",
@@ -117,7 +117,7 @@
         "hidden.background": "#111111",
         "hidden.border": "#eeeeee10",
 
-        "hint": "#0090ff",
+        "hint": "#c9a227",
         "hint.background": "#181818",
         "hint.border": "#eeeeee10",
 
@@ -125,7 +125,7 @@
         "ignored.background": "#181818",
         "ignored.border": "#eeeeee10",
 
-        "info": "#0090ff",
+        "info": "#c9a227",
         "info.background": "#181818",
         "info.border": "#eeeeee10",
 
@@ -137,7 +137,7 @@
         "predictive.background": "#111111",
         "predictive.border": "#eeeeee10",
 
-        "renamed": "#0090ff",
+        "renamed": "#c9a227",
         "renamed.background": "#181818",
         "renamed.border": "#eeeeee10",
 
@@ -149,15 +149,15 @@
         "unreachable.background": "#111111",
         "unreachable.border": "#eeeeee10",
 
-        "warning": "#ffdc75",
+        "warning": "#c9a227",
         "warning.background": "#181818",
         "warning.border": "#eeeeee10",
 
         "players": [
           {
-            "background": "#0090ff",
-            "cursor": "#0090ff",
-            "selection": "#eeeeee10"
+            "background": "#c9a227",
+            "cursor": "#c9a227",
+            "selection": "#c9a22720"
           }
         ],
 
@@ -178,7 +178,7 @@
             "font_weight": null
           },
           "keyword": {
-            "color": "#999999",
+            "color": "#c9a227",
             "font_style": null,
             "font_weight": null
           },
@@ -198,12 +198,12 @@
             "font_weight": null
           },
           "function": {
-            "color": "#eeeeee",
+            "color": "#c9a227",
             "font_style": null,
             "font_weight": 600
           },
           "number": {
-            "color": "#eeeeee",
+            "color": "#c9a227",
             "font_style": null,
             "font_weight": null
           }
@@ -211,7 +211,7 @@
       }
     },
     {
-      "name": "Onyx Light",
+      "name": "Onyx Gold Light",
       "appearance": "light",
       "style": {
         "border": "#33333330",
@@ -243,12 +243,12 @@
         "text.muted": "#777777",
         "text.placeholder": "#888888",
         "text.disabled": "#999999",
-        "text.accent": "#0066ff",
+        "text.accent": "#9a7a0a",
 
         "icon": "#333333",
         "icon.muted": "#666666",
         "icon.disabled": "#777777",
-        "icon.accent": "#0066ff",
+        "icon.accent": "#9a7a0a",
 
         "status_bar.background": "#eeeeee",
         "title_bar.background": "#eeeeee",
@@ -259,7 +259,7 @@
         "tab.active_foreground": "#eeeeee",
         "tab.inactive_background": "#eeeeee",
 
-        "search.match_background": "#0066ff20",
+        "search.match_background": "#c9a22720",
 
         "editor.background": "#eeeeee",
         "editor.gutter.background": "#eeeeee",
@@ -284,8 +284,8 @@
         "terminal.ansi.dim_black": "#666666",
         "terminal.ansi.red": "#eb5757",
         "terminal.ansi.green": "#00933f",
-        "terminal.ansi.yellow": "#a06000",
-        "terminal.ansi.blue": "#0052ce",
+        "terminal.ansi.yellow": "#9a7a0a",
+        "terminal.ansi.blue": "#9a7a0a",
         "terminal.ansi.white": "#eeeeee",
         "terminal.ansi.bright_white": "#eeeeee90",
         "terminal.ansi.dim_white": "#eeeeee80",
@@ -302,9 +302,9 @@
         "scrollbar.track.background": "#eeeeee",
         "scrollbar.track.border": "#33333310",
 
-        "link_text.hover": "#0066ff",
+        "link_text.hover": "#9a7a0a",
 
-        "conflict": "#a06000",
+        "conflict": "#9a7a0a",
         "conflict.background": "#f2f2f2",
         "conflict.border": "#33333310",
 
@@ -324,7 +324,7 @@
         "hidden.background": "#eeeeee",
         "hidden.border": "#33333310",
 
-        "hint": "#0066ff",
+        "hint": "#9a7a0a",
         "hint.background": "#f2f2f2",
         "hint.border": "#33333310",
 
@@ -332,7 +332,7 @@
         "ignored.background": "#eeeeee",
         "ignored.border": "#33333310",
 
-        "info": "#0066ff",
+        "info": "#9a7a0a",
         "info.background": "#f2f2f2",
         "info.border": "#33333310",
 
@@ -344,7 +344,7 @@
         "predictive.background": "#eeeeee",
         "predictive.border": "#33333310",
 
-        "renamed": "#0090ff",
+        "renamed": "#9a7a0a",
         "renamed.background": "#f2f2f2",
         "renamed.border": "#33333310",
 
@@ -356,15 +356,15 @@
         "unreachable.background": "#eeeeee",
         "unreachable.border": "#33333310",
 
-        "warning": "#a06000",
+        "warning": "#9a7a0a",
         "warning.background": "#f2f2f2",
         "warning.border": "#33333310",
 
         "players": [
           {
-            "background": "#0066ff",
-            "cursor": "#0066ff",
-            "selection": "#0066ff20"
+            "background": "#9a7a0a",
+            "cursor": "#9a7a0a",
+            "selection": "#c9a22720"
           }
         ],
 
@@ -385,7 +385,7 @@
             "font_weight": null
           },
           "keyword": {
-            "color": "#888888",
+            "color": "#9a7a0a",
             "font_style": null,
             "font_weight": null
           },
@@ -405,12 +405,12 @@
             "font_weight": null
           },
           "function": {
-            "color": "#333333",
+            "color": "#9a7a0a",
             "font_style": null,
             "font_weight": 600
           },
           "number": {
-            "color": "#333333",
+            "color": "#9a7a0a",
             "font_style": null,
             "font_weight": null
           }

@@ -1,0 +1,142 @@
+{
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "diff_view_style": "unified",
+  "soft_wrap": "editor_width",
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+    "lsp_pull_diagnostics": {
+      "enabled": true,
+    },
+  },
+  "cli_default_open_behavior": "new_window",
+  "format_on_save": "off",
+  "vim_mode": true,
+  "vim": {
+    "use_regex_search": true,
+    "use_system_clipboard": "on_yank",
+    "use_smartcase_find": true,
+  },
+  "terminal": {
+    "font_size": 12.0,
+    "font_family": "FiraCode Nerd Font",
+  },
+  "relative_line_numbers": "enabled",
+  "gutter": {
+    "line_numbers": true,
+  },
+  "buffer_font_family": "FiraCode Nerd Font",
+  "linked_edits": true,
+  "tab_size": 2,
+  "agent": {
+    "dock": "right",
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5",
+    },
+    "inline_assistant_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5",
+    },
+    "commit_message_model": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-5",
+    },
+  },
+  "agent_servers": {
+    "pi-acp": {
+      "default_model": "amazon-bedrock/us.anthropic.claude-opus-4-7",
+      "type": "registry",
+    },
+    "claude-acp": {
+      "default_config_options": {
+        "mode": "bypassPermissions",
+        "effort": "max",
+        "model": "us.anthropic.claude-fable-5"
+      },
+      "type": "registry",
+    },
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "dark",
+    "light": "Onyx Gold Light",
+    "dark": "Onyx Gold Dark",
+  },
+  "file_scan_exclusions": ["**/routeTree.gen.ts"],
+  "formatter": "prettier",
+  "languages": {
+    "JavaScript": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true,
+      },
+    },
+    "TypeScript": {
+      "formatter": "prettier",
+      "format_on_save": "off",
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true,
+      },
+    },
+    "TSX": {
+      "formatter": "prettier",
+      "format_on_save": "off",
+      "code_actions_on_format": {
+        "source.fixAll.biome": true,
+        "source.organizeImports.biome": true,
+      },
+    },
+    "CSS": {
+      "formatter": "prettier",
+      "format_on_save": "off",
+      "language_servers": [
+        "biome",
+        "tailwindcss-language-server",
+        "!vscode-css-language-server",
+      ],
+    },
+    "JSON": {
+      "formatter": "prettier",
+      "format_on_save": "off",
+    },
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true,
+      },
+    },
+    "vtsls": {
+      "settings": {
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always",
+          },
+        },
+      },
+      "enable_lsp_tasks": true,
+    },
+  },
+}
